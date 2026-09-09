@@ -6,6 +6,8 @@ This repository contains a data warehouse project focused on transforming raw sa
 
 The project uses a **Medallion Architecture**, divided into three layers: **Bronze, Silver, and Gold**.
 
+<img width="1202" height="610" alt="image" src="https://github.com/user-attachments/assets/e4a4c4ae-c242-49d6-a4a7-5030622742b7" />
+
 1. **Bronze Layer**: Contains the original data imported from the source CSV files into SQL Server. The data is kept in its raw form with minimal changes.
 
 2. **Silver Layer**: The data is cleaned and transformed at this stage. This includes tasks such as handling inconsistent values, standardizing formats, and preparing the data for further processing.
@@ -17,6 +19,8 @@ The project uses a **Medallion Architecture**, divided into three layers: **Bron
 ## Project Overview
 
 The main goal of this project is to build a complete data warehouse and use it to extract meaningful information from sales data.
+
+<img width="967" height="482" alt="image" src="https://github.com/user-attachments/assets/5b7f210f-5a88-4487-87ca-fb3c291ede52" />
 
 The project covers:
 
@@ -56,6 +60,8 @@ The project was developed using freely available tools and resources:
 
 Build a SQL Server data warehouse capable of combining sales information from different source systems and making it easier to analyze and report on.
 
+<img width="1268" height="617" alt="image" src="https://github.com/user-attachments/assets/d743ce73-90e3-4c39-adca-4c2a1b850589" />
+
 #### Main Requirements
 
 * **Data Sources**: Use data from two different systems, ERP and CRM, provided as CSV files.
@@ -63,6 +69,12 @@ Build a SQL Server data warehouse capable of combining sales information from di
 * **Data Integration**: Bring the information from both sources together into a consistent data model.
 * **Data Scope**: Work only with the most recent available data. Historical tracking is outside the scope of this project.
 * **Documentation**: Document the data model and the main processes to make the project easier to understand and maintain.
+
+---
+
+### Data Modeling (Gold Layer)
+
+<img width="727" height="423" alt="image" src="https://github.com/user-attachments/assets/5ffb11df-341b-46be-bd0b-893c99f4a456" />
 
 ---
 
